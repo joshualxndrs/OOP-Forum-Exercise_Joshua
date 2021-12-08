@@ -6,3 +6,6 @@ Name: Joshua Alexander Silalahi
 Class: L1AC
 <br>
 Student ID: 2502005244
+<br>
+<br>
+JS = Joshua Silalahi
