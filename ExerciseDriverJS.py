@@ -1,4 +1,4 @@
-from ProgramExerciseJS import Grocery_lists
+from ProgramExerciseJS import Grocery_listsJS
  
 def ItemListJS():
  
@@ -14,7 +14,7 @@ def ItemListJS():
      amount = float(input("Order Amount (in pounds): "))
      while (amount <= 0):
         amount = float(input("\nAmount must be greater than 0\n"))
-     item = Grocery_lists(name, amount)
+     item = Grocery_listsJS(name, amount)
      items.append(item)
  
  return items

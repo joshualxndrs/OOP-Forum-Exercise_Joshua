@@ -1,4 +1,4 @@
-class Grocery_lists:
+class Grocery_listsJS:
     # Inititalizer
     def __init__(self, name, amount):
         self._name = name
