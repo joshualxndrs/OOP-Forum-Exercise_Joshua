@@ -4,11 +4,11 @@ class Grocery_lists:
         self._name = name
         self._amount = amount
         self._standard_price = 0.00
-        self.__PriceList()
-        self._total_cost = self.calculatetotalcost()
+        self.__PriceListJS()
+        self._total_cost = self.calculatetotalcostJS()
  
     # Set standard price 
-    def __PriceList(self):
+    def __PriceListJS(self):
         if self._name == "Dry Cured Iberian Ham":
             self._standard_price = 177.80
         elif self._name == "Wagyu Steaks":
@@ -27,7 +27,7 @@ class Grocery_lists:
             self._standard_price = 270.81
  
     # Calculating total cost 
-    def calculatetotalcost(self):
+    def calculatetotalcostJS(self):
         return self._amount * self._standard_price
  
     # Overriding __str__

@@ -1,6 +1,6 @@
 from ProgramExerciseJS import Grocery_lists
  
-def ItemList():
+def ItemListJS():
  
  items = []
  
@@ -19,21 +19,21 @@ def ItemList():
  
  return items
  
-def DisplayItemList(items):
+def DisplayItemListJS(items):
  
  for item in items:
      print(item)
  
-def TotalCostOfItems(items):
+def TotalCostOfItemsJS(items):
     total = 0.00
     for item in items:
-        total += item.calculatetotalcost()
+        total += item.calculatetotalcostJS()
     return total
  
 def main():
  
- items = ItemList()
- DisplayItemList(items)
- print("\nTotal cost of items selected: ", TotalCostOfItems(items))
+ items = ItemListJS()
+ DisplayItemListJS(items)
+ print("\nTotal cost of items selected: ", TotalCostOfItemsJS(items))
  
 main()
